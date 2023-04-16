@@ -23,4 +23,12 @@ class BlogController extends Controller
     
         // return redirect('/all-blog')->with('message', 'Success');
     }
+
+    public function allBlog()
+    {
+        return view('allBlog', [
+            'blogs' => Blog::all(),
+          
+        ]);
+    }
 }

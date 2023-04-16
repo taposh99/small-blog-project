@@ -16,8 +16,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <a href="" class="btn btn-primary">Blog List</a>
-                {{-- {{ route('all.blog') }} --}}
+                <a href="{{ route('all.blog') }}" class="btn btn-primary">Blog List</a>
+             
             </div>
 
 

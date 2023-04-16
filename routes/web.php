@@ -28,3 +28,5 @@ Route::middleware([
     })->name('dashboard');
 });
 Route::post('new-blog',[BlogController:: class,'blog'])->name('new.blog');
+Route::get('all-blog',[BlogController:: class,'allBlog'])->name('all.blog');
+
