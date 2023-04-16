@@ -16,7 +16,7 @@
     <div class="row">
         <div class="col-md-12">
             <h1 class="text-center"> {{ session('message') }}</h1>
-            <a href="{{ route('dashboard') }}" class="btn btn-primary">Add Blog</a>
+            <a href="{{ route('dashboard') }}" class="btn btn-primary">Create Blog</a>
         </div>
     </div>
     <br>
