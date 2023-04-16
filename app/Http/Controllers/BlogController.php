@@ -31,4 +31,29 @@ class BlogController extends Controller
           
         ]);
     }
+    public function editblog($id)
+    {
+        return view('edit-blog', [
+            'blog' => Blog::find($id)
+        ]);
+    }
+    public function updateBlog(Request $request)
+    {
+
+        $blog = Blog::find($request->blog_id);
+        $blog->blog = $request->blog;
+       
+   
+        $blog->save();
+        toastr()->success('Update successfully!');
+        return redirect('/all-blog');
+    }
+    public function deleteblog(Request $request)
+    {
+        $blog = Blog::find($request->blog_id);
+      
+        $blog->delete();
+        toastr()->success('Update successfully!');
+        return back();
+    }
 }

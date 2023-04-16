@@ -38,13 +38,13 @@
                                 <td>{{ $i++ }}</td>
                                 <td>{{ $blog->blog }}</td>
                                 <td>
-                                    <a href="" class="btn btn-primary">Edit</a>
-                                    {{-- {{ route('edit.blog',['id'=>$blog->id]) }} --}}
-                                    {{-- <form action="{{ route('delete.blog') }}" method="post">
+                                    
+                                    <a href="{{ route('edit.blog',['id'=>$blog->id]) }}" class="btn btn-primary">Edit</a>
+                                    <form action="{{ route('delete.blog') }}" method="post">
                                         @csrf
                                         <input type="hidden" name="blog_id" value="{{ $blog->id }}">
                                         <input type="submit" value="Delete" class="btn btn-danger" onclick="return confirm('Are You Sure !!')">
-                                    </form> --}}
+                                    </form>
                                 </td>
                             </tr>
                         @endforeach
