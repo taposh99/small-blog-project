@@ -26,7 +26,7 @@
                         <form action="{{ route('update.blog') }}" method="post" enctype="multipart/form-data">
                             @csrf
                             <input type="hidden" value="{{ $blog->id }}" name="blog_id">
-                            <label class="">Update blog : </label>
+                            <label class="">Update blogs : </label>
                             <input type="text" class="form-control" value="{{ $blog->blog }}" name="blog"><br>
 
 
