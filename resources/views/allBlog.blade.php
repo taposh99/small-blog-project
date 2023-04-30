@@ -28,7 +28,7 @@
                     <table class="table table-hover table-bordered">
                         <tr>
                             <th>sl</th>
-                            <th> All Blog</th>
+                            <th> blog list</th>
                        
                             <th>Action</th>
                         </tr>
