@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Blog Site</title>
+    <title>Blog Project</title>
 
     <link rel="stylesheet" href="{{asset('frontEndAsset')}}/css/bootstrap.css">
 </head>
@@ -16,7 +16,7 @@
     <div class="row">
         <div class="col-md-12">
             <h1 class="text-center"> {{ session('message') }}</h1>
-            <a href="{{ route('dashboard') }}" class="btn btn-primary">Create Blog</a>
+            <a href="{{ route('dashboard') }}" class="btn btn-primary">New Blog</a>
         </div>
     </div>
     <br>
