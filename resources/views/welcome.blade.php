@@ -55,8 +55,7 @@
 
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-it is a small project here.                                </div>
-                            </div>
+laravel project ius very update for us.it is very helpfull for the easy people.                            </div>
                         </div>
 
                         <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-t-0 md:border-l">
