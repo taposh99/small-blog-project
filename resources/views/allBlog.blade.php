@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Simple Project</title>
+    <title>small Project</title>
 
     <link rel="stylesheet" href="{{asset('frontEndAsset')}}/css/bootstrap.css">
 </head>
@@ -27,8 +27,8 @@
                 <div class="card-body">
                     <table class="table table-hover table-bordered">
                         <tr>
-                            <th>sl</th>
-                            <th>Blog total List</th>
+                            <th>serial</th>
+                            <th>Blog list here</th>
                        
                             <th>Action</th>
                         </tr>
