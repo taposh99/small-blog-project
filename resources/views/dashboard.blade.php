@@ -6,7 +6,7 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Simple blog project</title>
+    <title>blog simple software</title>
 
     <link rel="stylesheet" href="{{ asset('frontEndAsset') }}/css/bootstrap.css">
 </head>
@@ -16,7 +16,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <a href="{{ route('all.blog') }}" class="btn btn-primary"> blogs list </a>
+                <a href="{{ route('all.blog') }}" class="btn btn-primary"> Total blogs List</a>
              
             </div>
 
@@ -32,7 +32,7 @@
 
                             @csrf
 
-                            <label class="">Create new Blogs site : </label>
+                            <label class="">Create New Blog : </label>
                             <input type="text" class="form-control" name="blog" required>
                             <br>
                             <div class="form-floating mb-3 mb-md-0">
