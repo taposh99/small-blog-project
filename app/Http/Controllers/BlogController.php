@@ -18,7 +18,7 @@ class BlogController extends Controller
         $blog->blog = $request->blog;
      
         $blog->save();
-        toastr()->success('Data has been saved successfully!');
+        toastr()->success('Data has been create successfully!');
         return back();
     
         // return redirect('/all-blog')->with('message', 'Success');

@@ -16,7 +16,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <a href="{{ route('all.blog') }}" class="btn btn-primary"> All Blogs</a>
+                <a href="{{ route('all.blog') }}" class="btn btn-primary"> All Blogs List</a>
              
             </div>
 
@@ -32,7 +32,7 @@
 
                             @csrf
 
-                            <label class="">+ New Blog : </label>
+                            <label class="">+ New Blog Add : </label>
                             <input type="text" class="form-control" name="blog" required>
                             <br>
                             <div class="form-floating mb-3 mb-md-0">
