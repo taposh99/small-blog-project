@@ -11,17 +11,15 @@ class BlogController extends Controller
     public function blog(Request $request)
     {
         // dd($request);
-     
-
-      
+    
         $blog = new Blog();
         $blog->blog = $request->blog;
      
         $blog->save();
-        toastr()->success('Data has been create successfully!');
+        toastr()->success('Data store successfully!');
         return back();
     
-        // return redirect('/all-blog')->with('message', 'Success');
+       
     }
 
     public function allBlog()
@@ -53,7 +51,7 @@ class BlogController extends Controller
         $blog = Blog::find($request->blog_id);
       
         $blog->delete();
-        toastr()->success('Update successfully!');
+        toastr()->success('delete successfully!');
         return back();
     }
 }
